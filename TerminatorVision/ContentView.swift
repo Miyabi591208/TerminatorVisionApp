@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    @StateObject private var cameraManager = CameraManager()
+    @StateObject private var detector = Detector()
 
-#Preview {
-    ContentView()
+    var body: some View {
+        ZStack {
+            CameraPreview(session: cameraManager.session)
+                .ignoresSafeArea()
+
+            OverlayView(boxes: detector.boxes)
+                .ignoresSafeArea()
+        }
+        .onAppear {
+            cameraManager.onFrame = { pixelBuffer in
+                detector.detect(pixelBuffer: pixelBuffer)
+            }
+            cameraManager.start()
+        }
+        .onDisappear {
+            cameraManager.stop()
+        }
+    }
 }
