@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6B4E3CB32F6EB7F70094FACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B4E3C9A2F6EB7F60094FACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4E3CA12F6EB7F60094FACC;
+			remoteInfo = TerminatorVision;
+		};
+		6B4E3CBD2F6EB7F70094FACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B4E3C9A2F6EB7F60094FACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4E3CA12F6EB7F60094FACC;
+			remoteInfo = TerminatorVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B4E3CA22F6EB7F60094FACC /* TerminatorVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerminatorVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4E3CB22F6EB7F70094FACC /* TerminatorVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerminatorVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4E3CBC2F6EB7F70094FACC /* TerminatorVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerminatorVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6B4E3CA42F6EB7F60094FACC /* TerminatorVision */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TerminatorVision;
+			sourceTree = "<group>";
+		};
+		6B4E3CB52F6EB7F70094FACC /* TerminatorVisionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TerminatorVisionTests;
+			sourceTree = "<group>";
+		};
+		6B4E3CBF2F6EB7F70094FACC /* TerminatorVisionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TerminatorVisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4E3C9F2F6EB7F60094FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E3CAF2F6EB7F70094FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E3CB92F6EB7F70094FACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4E3C992F6EB7F60094FACC = {
+			isa = PBXGroup;
+			children = (
+				6B4E3CA42F6EB7F60094FACC /* TerminatorVision */,
+				6B4E3CB52F6EB7F70094FACC /* TerminatorVisionTests */,
+				6B4E3CBF2F6EB7F70094FACC /* TerminatorVisionUITests */,
+				6B4E3CA32F6EB7F60094FACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4E3CA32F6EB7F60094FACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E3CA22F6EB7F60094FACC /* TerminatorVision.app */,
+				6B4E3CB22F6EB7F70094FACC /* TerminatorVisionTests.xctest */,
+				6B4E3CBC2F6EB7F70094FACC /* TerminatorVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4E3CA12F6EB7F60094FACC /* TerminatorVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4E3CC62F6EB7F70094FACC /* Build configuration list for PBXNativeTarget "TerminatorVision" */;
+			buildPhases = (
+				6B4E3C9E2F6EB7F60094FACC /* Sources */,
+				6B4E3C9F2F6EB7F60094FACC /* Frameworks */,
+				6B4E3CA02F6EB7F60094FACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6B4E3CA42F6EB7F60094FACC /* TerminatorVision */,
+			);
+			name = TerminatorVision;
+			packageProductDependencies = (
+			);
+			productName = TerminatorVision;
+			productReference = 6B4E3CA22F6EB7F60094FACC /* TerminatorVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B4E3CB12F6EB7F70094FACC /* TerminatorVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4E3CC92F6EB7F70094FACC /* Build configuration list for PBXNativeTarget "TerminatorVisionTests" */;
+			buildPhases = (
+				6B4E3CAE2F6EB7F70094FACC /* Sources */,
+				6B4E3CAF2F6EB7F70094FACC /* Frameworks */,
+				6B4E3CB02F6EB7F70094FACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B4E3CB42F6EB7F70094FACC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B4E3CB52F6EB7F70094FACC /* TerminatorVisionTests */,
+			);
+			name = TerminatorVisionTests;
+			packageProductDependencies = (
+			);
+			productName = TerminatorVisionTests;
+			productReference = 6B4E3CB22F6EB7F70094FACC /* TerminatorVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B4E3CBB2F6EB7F70094FACC /* TerminatorVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4E3CCC2F6EB7F70094FACC /* Build configuration list for PBXNativeTarget "TerminatorVisionUITests" */;
+			buildPhases = (
+				6B4E3CB82F6EB7F70094FACC /* Sources */,
+				6B4E3CB92F6EB7F70094FACC /* Frameworks */,
+				6B4E3CBA2F6EB7F70094FACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B4E3CBE2F6EB7F70094FACC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6B4E3CBF2F6EB7F70094FACC /* TerminatorVisionUITests */,
+			);
+			name = TerminatorVisionUITests;
+			packageProductDependencies = (
+			);
+			productName = TerminatorVisionUITests;
+			productReference = 6B4E3CBC2F6EB7F70094FACC /* TerminatorVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B4E3C9A2F6EB7F60094FACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6B4E3CA12F6EB7F60094FACC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6B4E3CB12F6EB7F70094FACC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6B4E3CA12F6EB7F60094FACC;
+					};
+					6B4E3CBB2F6EB7F70094FACC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6B4E3CA12F6EB7F60094FACC;
+					};
+				};
+			};
+			buildConfigurationList = 6B4E3C9D2F6EB7F60094FACC /* Build configuration list for PBXProject "TerminatorVision" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B4E3C992F6EB7F60094FACC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6B4E3CA32F6EB7F60094FACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B4E3CA12F6EB7F60094FACC /* TerminatorVision */,
+				6B4E3CB12F6EB7F70094FACC /* TerminatorVisionTests */,
+				6B4E3CBB2F6EB7F70094FACC /* TerminatorVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B4E3CA02F6EB7F60094FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E3CB02F6EB7F70094FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E3CBA2F6EB7F70094FACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4E3C9E2F6EB7F60094FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E3CAE2F6EB7F70094FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E3CB82F6EB7F70094FACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B4E3CB42F6EB7F70094FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B4E3CA12F6EB7F60094FACC /* TerminatorVision */;
+			targetProxy = 6B4E3CB32F6EB7F70094FACC /* PBXContainerItemProxy */;
+		};
+		6B4E3CBE2F6EB7F70094FACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B4E3CA12F6EB7F60094FACC /* TerminatorVision */;
+			targetProxy = 6B4E3CBD2F6EB7F70094FACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B4E3CC42F6EB7F70094FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B4E3CC52F6EB7F70094FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B4E3CC72F6EB7F70094FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerminatorVision/Preview Content\"";
+				DEVELOPMENT_TEAM = YK9LCM3P7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Syver.TerminatorVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B4E3CC82F6EB7F70094FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerminatorVision/Preview Content\"";
+				DEVELOPMENT_TEAM = YK9LCM3P7T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Syver.TerminatorVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B4E3CCA2F6EB7F70094FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK9LCM3P7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Syver.TerminatorVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerminatorVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerminatorVision";
+			};
+			name = Debug;
+		};
+		6B4E3CCB2F6EB7F70094FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK9LCM3P7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Syver.TerminatorVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerminatorVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TerminatorVision";
+			};
+			name = Release;
+		};
+		6B4E3CCD2F6EB7F70094FACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK9LCM3P7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Syver.TerminatorVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerminatorVision;
+			};
+			name = Debug;
+		};
+		6B4E3CCE2F6EB7F70094FACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK9LCM3P7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Syver.TerminatorVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerminatorVision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4E3C9D2F6EB7F60094FACC /* Build configuration list for PBXProject "TerminatorVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4E3CC42F6EB7F70094FACC /* Debug */,
+				6B4E3CC52F6EB7F70094FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4E3CC62F6EB7F70094FACC /* Build configuration list for PBXNativeTarget "TerminatorVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4E3CC72F6EB7F70094FACC /* Debug */,
+				6B4E3CC82F6EB7F70094FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4E3CC92F6EB7F70094FACC /* Build configuration list for PBXNativeTarget "TerminatorVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4E3CCA2F6EB7F70094FACC /* Debug */,
+				6B4E3CCB2F6EB7F70094FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4E3CCC2F6EB7F70094FACC /* Build configuration list for PBXNativeTarget "TerminatorVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4E3CCD2F6EB7F70094FACC /* Debug */,
+				6B4E3CCE2F6EB7F70094FACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B4E3C9A2F6EB7F60094FACC /* Project object */;
+}
