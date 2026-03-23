@@ -103,17 +103,19 @@ struct OverlayView: View {
                     }
                 }
 
+                FixedCenterHUD()
+                    .stroke(Color.red.opacity(0.55), lineWidth: 1.2)
+                    .frame(width: 90, height: 90)
+                    .position(x: geo.size.width / 2, y: geo.size.height / 2)
+            }
+            .overlay(alignment: .topLeading) {
                 RecognitionReadoutView(
                     telemetry: telemetry,
                     silhouette: silhouette,
                     blink: blink
                 )
-                .position(x: geo.size.width - 108, y: 112)
-
-                FixedCenterHUD()
-                    .stroke(Color.red.opacity(0.55), lineWidth: 1.2)
-                    .frame(width: 90, height: 90)
-                    .position(x: geo.size.width / 2, y: geo.size.height / 2)
+                .padding(.top, 102)
+                .padding(.leading, 12)
             }
             .overlay(alignment: .leading) {
                 AudioWaveformHUD(
